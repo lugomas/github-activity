@@ -1,5 +1,5 @@
 # GitHub Activity CLI
-`github-activity-cli` is a command-line interface (CLI) tool that allows you to fetch and display the recent activity of any GitHub user directly from the terminal. The application uses the GitHub API to retrieve and display activities such as push events, issues, stars, and more.
+`github-activity` is a command-line interface (CLI) tool that allows you to fetch and display the recent activity of any GitHub user directly from the terminal. The application uses the GitHub API to retrieve and display activities such as push events, issues, stars, and more.
 
 ## Features
 - Fetch and display a GitHub user's recent activity.
@@ -10,8 +10,8 @@
 ## Installation
 To install github-activity, clone the repository and build the Go binary:
 ```
-git clone https://github.com/lugomas/github-activity-cli.git
-cd github-activity-cli
+git clone https://github.com/lugomas/github-activity.git
+cd github-activity
 go build -o github-activity
 ```
 
